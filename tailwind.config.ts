@@ -14,6 +14,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")], // ✅ Tambahkan plugin DaisyUI
+  daisyui: {
+    darkTheme: "light", // ✅ Default tema gelap
+  },
 };
+
 export default config;
